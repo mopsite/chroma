@@ -14,8 +14,8 @@ hero:
       text: 开始
       link: /guide/start
     - theme: alt
-      text: 在 Gitee 上查看
-      link: https://gitee.com/skewb/chroma
+      text: 在 GitHub 上查看
+      link: https://github.com/mopsite/chroma
 
 features:
   - icon: 📚
