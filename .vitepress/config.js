@@ -1,11 +1,13 @@
 import { defineConfig } from 'vitepress'
 
+const baseURL = process.env.BASE_URL || '/chroma/'
+
 // https://vitepress.dev/zh/reference/site-config
 export default defineConfig({
-  base: '/chroma/',
+  base: baseURL,
   title: 'Chroma.js',
   description: '极小且零依赖的 JavaScript 颜色库',
-  head: [['link', { rel: 'icon', href: '/chroma/logo.svg' }]],
+  head: [['link', { rel: 'icon', href: `${baseURL}logo.svg` }]],
   cleanUrls: true,
   ignoreDeadLinks: true,
   themeConfig: {
